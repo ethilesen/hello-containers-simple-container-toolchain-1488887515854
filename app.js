@@ -21,6 +21,9 @@ var app = express();
 app.get('/', function (req, res) {
   res.send('Welcome to Bluemix DevOps with Docker. Lets go use Pipeline Services');
 });
+app.get('/espen', function (req,res {
+                             res.send("Hei Espen - Hvordan har du det?");
+});
 
 app.listen(PORT)
 console.log(' Application Running on port' + PORT);
