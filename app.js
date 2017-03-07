@@ -21,7 +21,7 @@ var app = express();
 app.get('/', function (req, res) {
   res.send('Welcome to Bluemix DevOps with Docker. Lets go use Pipeline Services');
 });
-app.get('/espen', function (req,res {
+app.get('/espen', function (req,res ){
                              res.send("Hei Espen - Hvordan har du det?");
 });
 
